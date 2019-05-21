@@ -1,9 +1,9 @@
 package numbersExercises;
-//        Example
-//        1       1         0 + 1
-//        9       81        8 + 1
-//        45      2025      20 + 25
-//        55      3025      30 + 25
+//        KaprekarNumber Example
+//        1       1         0 + 1 == 1
+//        9       81        8 + 1 == 9
+//        45      2025      20 + 25 == 45
+//        55      3025      30 + 25 == 55
 
 public class KaprekarNumber {
     public boolean checkKaprekar (long number) {

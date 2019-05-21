@@ -3,7 +3,7 @@ package numbersExercises;
 import java.util.HashSet;
 import java.util.Set;
 
-//        Example (19)
+//        HappyNumber Example (19)
 //        1^2 + 9^2=82
 //        8^2 + 2^2=68
 //        6^2 + 8^2=100

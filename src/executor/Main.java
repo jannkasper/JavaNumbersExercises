@@ -8,5 +8,6 @@ public class Main {
         testRunner.fibonacciNumberRun();
         testRunner.kaprekarNumberRun();
         testRunner.happyNumberRun();
+        testRunner.narcissisticNumberRun();
     }
 }
