@@ -1,4 +1,9 @@
 package numbersExercises;
+//        Example
+//        1       1         0 + 1
+//        9       81        8 + 1
+//        45      2025      20 + 25
+//        55      3025      30 + 25
 
 public class KaprekarNumber {
     public boolean checkKaprekar (long number) {
@@ -7,7 +12,7 @@ public class KaprekarNumber {
             String[] parts = splitNumber(sqrNumber,i);
             if (Long.parseLong(parts[0]) + Long.parseLong(parts[1]) == number) return true;
         }
-        
+
      return false;
     }
     public String[] splitNumber(String number, int index) {
