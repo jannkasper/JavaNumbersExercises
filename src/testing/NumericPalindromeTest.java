@@ -15,7 +15,7 @@ public class NumericPalindromeTest {
     }
     @Test
     public void test1() {
-        assertTrue(numericPalindrome.checkIfPalindrome(12721));
+        assertTrue(numericPalindrome.checkIfPalindrome(-12721));
     }
     @Test
     public void test2() {
@@ -24,7 +24,7 @@ public class NumericPalindromeTest {
 
     @Test
     public void test3() {
-        assertTrue(numericPalindrome.checkIfPalindrome(1234));
+        assertFalse(numericPalindrome.checkIfPalindrome(1234));
     }
 
 }
