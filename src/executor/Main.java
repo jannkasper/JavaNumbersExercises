@@ -6,5 +6,6 @@ public class Main {
         TestRunner testRunner = new TestRunner();
         testRunner.numericPalindromeRun();
         testRunner.fibonacciNumberRun();
+        testRunner.kaprekarNumberRun();
     }
 }
