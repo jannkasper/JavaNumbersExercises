@@ -24,7 +24,7 @@ public class KaprekarNumberTest {
     }
     @Test
     public void test3 () {
-        assertFalse(kaprekarNumber.checkKaprekar(998));
+        assertFalse(kaprekarNumber.checkKaprekar(90000));
     }
 
 }
